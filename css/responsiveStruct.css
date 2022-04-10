@@ -1,0 +1,48 @@
+
+/* =======================================================================
+ * Remove as laterais internas e externas de todos os containers,
+ * aplica o tamanho de 100% abrangendo todo o espaço horizontal da tela,
+ * realiza o ajuste da tela e transforma todo conteúdo em uma caixa
+ * com limites relativos à borda.
+ * =======================================================================
+*/
+* { 
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/* =========================================================
+ *  Torna o site responsivo de acordo com o tamanho da tela
+ *  do usuário e do navegador
+ * =========================================================
+*/
+
+@media screen {
+    * {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 25em){
+    h1 {
+        font-size: calc( 5vw * 2vw ) / 2 ;
+    }
+}
+
+body {
+    min-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #ddd;
+    overflow: auto;
+}
+
+#backToTop {
+    padding: 10px;
+    font-size: 80px;
+}

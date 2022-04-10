@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Elementos e práticas no plantio agrícola</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Owner Styles -->
+    <link rel="stylesheet" href="css/responsiveStruct.css">
+    <link rel="stylesheet" href="css/headerStyles.css">
+    <link rel="stylesheet" href="css/mainBodyStyles.css">
+
+    <!-- Custom font from google API-->
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- =============================================================================================================== -->
+    <header>
+        <div>
+            <span>
+                <h1>Elementos e práticas no plantio agrícola</h1>
+            </span>
+            <video muted nocontrols autoplay loop>
+                <source src="videos/trigo1.mp4" type="video/mp4">
+                Your browser doesn't support this video tag.
+            </video>
+        </div>
+    <!-- =============================================================================================================== -->
+        <aside id="top">
+            <div id="collapseGroup">
+                <p>
+                    <button class="btn btnGlass" type="button" data-toggle="collapse" data-target="#farmCalendar" aria-expanded="false" aria-controls="farmCalendar">
+                        Tipos de semente de trigo
+                    </button>
+                    <button class="btn btnGlass" type="button" data-toggle="collapse" data-target="#lunarCalendar" aria-expanded="false" aria-controls="lunarCalendar">
+                        Calendário lunar
+                    </button>
+                    <button class="btn btnGlass" type="button" data-toggle="collapse" data-target="#grainsSelect" aria-expanded="false" aria-controls="grainsSelect">
+                        A escolha da semente
+                    </button>
+                    <button class="btn btnGlass" type="button" data-toggle="collapse" data-target="#farmTips" aria-expanded="false" aria-controls="farmTips">
+                        Dicas para o plantio do trigo
+                    </button>
+                    <button class="btn btnGlass" type="button" data-toggle="collapse" data-target="#farmHandlingTips" aria-expanded="false" aria-controls="farmHandlingTips">
+                        Dicas para manuseio do trigo
+                    </button>
+                    <button class="btn btnGlass" type="button" data-toggle="collapse" data-target="#lifeCycle" aria-expanded="false" aria-controls="lifeCycle">
+                        Ciclo de vida do trigo
+                    </button>
+                    <button class="btn btnGlass" type="button" data-toggle="collapse" data-target="#wheatCollect" aria-expanded="false" aria-controls="wheatCollect">
+                        Coleta do trigo
+                    </button>
+                </p>
+            </div>
+    <!-- =============================================================================================================== -->
+            <div>
+                <div class="collapse" id="farmCalendar">
+                    <div class="card card-body">
+                        <h3>
+                            Conheça os tipos de sementes mais comuns
+                        </h3>
+                        <a id="descriptionTag">Descrição do conteúdo:</a>
+                        <p>
+                            Nesse tópico é abordado dois tipos principais
+                            de grãos de trigo que fornecem o melhor crescimento
+                            em determinadas estações do ano. Sendo de extrema importância
+                            a escolha correta de acordo com cada estação
+                        </p>
+                        <a id="linkTag" href="#fc">Acesse o conteúdo clicando aqui</a>
+                    </div>
+                </div>
+    <!-- =============================================================================================================== -->
+                <div class="collapse" id="lunarCalendar">
+                    <div class="card card-body">
+                        <h3>
+                            O calendário lunar no plantio do trigo
+                        </h3>
+                        <a id="descriptionTag">Descrição do conteúdo:</a>
+                        <p>
+                            Com a força exercida pelo campo gravitacional lunar
+                            é importante escolher o melhor momento para
+                            se iniciar a plantação de cada tipo de grão, para a melhor
+                            distribuição de nutrientes na planta e melhores resultados na colheita
+                        </p>
+                        <a id="linkTag" href="#lc">Acesse o conteúdo clicando aqui</a>
+                    </div>
+                </div>
+    <!-- =============================================================================================================== -->
+                <div class="collapse" id="grainsSelect">
+                    <div class="card card-body">
+                        <h3>
+                            A melhor escolha do tipo da semente para determinadas regiões
+                        </h3>
+                        <a id="descriptionTag">Descrição do conteúdo:</a>
+                        <p>
+                            Aqui citamos a importância da escolha das sementes
+                            de acordo com a região que se pretende iniciar uma plantação
+                            e do porque deve ser feito um estudo prévio do terreno antes
+                            de realizar a plantação 
+                        </p>
+                        <a id="linkTag" href="#gs">Acesse o conteúdo clicando aqui</a>
+                    </div>
+                </div>
+    <!-- =============================================================================================================== -->
+                <div class="collapse" id="farmTips">
+                    <div class="card card-body">
+                        <h3>Dicas para o plantio do trigo</h3>
+                        <a id="descriptionTag">Descrição do conteúdo:</a>
+                        <p>
+                            Aqui daremos algumas dicas para que seja possível uma plantação
+                            de trigo, como preparar o solo para receber os grãos, e a importância
+                            da constância de regar o solo sempre que possível nesse período,
+                            para o melhor desenvolvimento da planta.
+                        </p>
+                        <a id="linkTag" href="#ft">Acesse o conteúdo clicando aqui</a>
+                    </div>
+                </div>
+    <!-- =============================================================================================================== -->
+                <div class="collapse" id="farmHandlingTips">
+                    <div class="card card-body">
+                        <h3>Dicas para o manuseio do trigo</h3>
+                        <a id="descriptionTag">Descrição do conteúdo:</a>
+                        <p>
+                            O risco da seca gerado em plantações podem ser
+                            extremamente prejudiciais se não tomar devidos cuidados,
+                            portanto, aqui passamos algumas dicas para o melhor manuseio
+                            nos períodos iniciais da plantação.
+                        </p>
+                        <a id="linkTag" href="#fht">Acesse o conteúdo clicando aqui</a>
+                    </div>
+                </div>
+    <!-- =============================================================================================================== -->
+                <div class="collapse" id="lifeCycle">
+                    <div class="card card-body">
+                        <h3>O ciclo de vida do trigo</h3>
+                        <a id="descriptionTag">Descrição do conteúdo:</a>
+                        <p>
+                            A importância de se entender o ciclo de vida do trigo para entender
+                            aspectos fisiológicos da planta e, entender o melhor momento para se
+                            tomar uma decisão, aqui passamos o ciclo de vida do trigo e o tempo de
+                            crescimento de acordo com o estágio de desenvolvimento da planta.
+                        </p>
+                        <a id="linkTag" href="#lcy">Acesse o conteúdo clicando aqui</a>
+                    </div>
+                </div>
+    <!-- =============================================================================================================== -->
+                <div class="collapse" id="wheatCollect">
+                    <div class="card card-body">
+                        <h3>A coleta e armazenagem do trigo</h3>
+                        <a id="descriptionTag">Descrição do conteúdo:</a>
+                        <p>
+                            Após todo o ciclo da vida de uma plantação de trigo,
+                            é necessário sua coleta, aqui finalizamos a parte crucial da plantação -
+                            a colheita. Aqui definiremos se nossa plantação foi feita corretamente
+                            e a forma de coletar e armazenar da melhor forma
+                        </p>
+                        <a id="linkTag" href="#wtc">Acesse o conteúdo clicando aqui</a>
+                    </div>
+                </div>
+                
+            </div>
+        </aside>
+    </header>
+<!-- =============================================================================================================== -->
+    <main>
+        <section class="int card bg-light mb-5">
+            <h5 class="card-header mb-5">Introdução: </h5>
+            <p class="card-text mb-5">
+                O trigo é um dos cereais com a maior produção e distribuição e possui enorme variedade de grãos,
+                suas definições são tomadas de acordo com as condições climáticas do ambiente e do solo em que são feitas o plantio,
+                sendo classificadas de acordo com o período do ano em que se crescem.
+            </p>
+            <p class="card-text mb-5">
+                O trigo, naturalmente, não possui raízes na américa do sul, primordialmente falando,
+                sua origem veio de Portugal em meados do século XVI (aproximadamente em 1534), no período colonial.
+            </p>
+            <p class="card-text mb-5">
+                Por possui solo e clima extremamente favorável para o cultivo dessa gramínea, se tornou, culturalmente,
+                um dos maiores tipos de lavoura encontradas no país.
+            </p>
+            <p class="card-text mb-5">
+                Sendo estimuladas o seu plantio e cultivo em tempos posteriores, onde, se tornou algo muito comum e de extrema
+                importância para o país e sua economia no geral. 
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <i class=""><a href="#fc">Ir para o próximo tópico</a><a class="bi bi-arrow-down"></a></i>
+        </section>
+    <!-- =============================================================================================================== -->
+        <a class="sectionEmpty" name="fc"></a>
+        <section class="card bg-dark text-white mb-5">    
+            <h5 class="card-header mb-5">O calendário no plantio do trigo e suas variações</h5>
+            <p class="card-text mb-5">
+                A princípio, devemos determinar o tipo de trigo que se deseja colher, 
+                havendo duas possibilidades, sendo, as quais, o trigo de primavera e o trigo de inverno.
+            </p>
+            <p class="card-text mb-5">
+                O trigo de inverno é a variedade de maior preferência, no geral, pois, trata-se de um grão com
+                poder nutritivo maior, possuindo menor recorrência de ervas daninhas devido à época de seu plantio.
+            </p>
+            <p class="card-text mb-5">
+                A melhor época para plantio desse grão é no outono, cerca de seis a oito semanas, antes das quedas
+                de temperatura, possibilitando o melhor crescimento da plantação, e sua colheita deverá ser feita no início da primavera onde ocorre o aumento da temperatura.
+            </p>
+            <p class="card-text mb-5">
+                Já, o trigo de primavera, deve ser plantado no início da primavera e colhido o mais breve possível,
+                 no outono, pois, ocorre que em regiões onde os invernos são mais rigorosos, ou seja, o frio é mais elevado, o plantio do grão é prejudicado, inviabilizando o plantio desse tipo de grão.
+                
+            </p>
+            <p class="card-text mb-5">
+                O trigo de primavera deve ser plantado logo após o inverno, 
+                o mais breve possível, após o manuseio do solo, também deve-se ter em mente que o trigo 
+                demonstrará um melhor crescimento ao ser plantado em temperaturas amenas entre 20 °C à 25 °C.
+            </p>
+            <i class=""><a href="#lc">Ir para o próximo tópico</a><a class="bi bi-arrow-down"></a></i>
+        </section>
+    <!-- =============================================================================================================== -->
+        <a name="lc"></a>
+        <section class="card bg-dark text-white mb-5">
+            <h5 class="card-header mb-5">O calendário lunar do trigo</h5>
+            <p class="card-text mb-5">
+                Sabemos que a força gravitacional exercida pela lua altera o movimento das seivas nas plantas.
+            </p>
+            <p class="card-text mb-5">
+                Com isso em mente, recomenda-se que o trigo seja cultivado durante a lua crescente, entre o segundo e terceiro dia após o início de sua fase lunar,
+                que promove na planta um ótimo desenvolvimento dos seus grãos, 
+                por conta da melhor distribuição de nutrientes em sua estrutura molecular. 
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <i class=""><a href="#gs">Ir para o próximo tópico</a><a class="bi bi-arrow-down"></a></i>
+        </section>
+    <!-- =============================================================================================================== -->
+        <a name="gs"></a>
+        <section class="card bg-dark text-white mb-5">            
+            <h5 class="card-header mb-5">O preparo do trigo</h5>
+            <p class="card-text mb-5">
+                É importante dizer que, independentemente do tipo de trigo escolhido, o preparo do local será o mesmo,
+                sendo o trigo uma planta de baixo porte e, que, necessita de pelo menos 8 horas de luz solar ao dia.
+            </p>
+            <p class="card-text mb-5">
+                Existem alguns pré-requisitos a serem considerados durante a escolha do melhor local, como locais amplos que não possuam árvores ou construções ao redor da lavoura e,
+                um terreno plano e limpo para que a plantação possa de desenvolver da melhor forma. 
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <i class=""><a href="#ft">Ir para o próximo tópico</a><a class="bi bi-arrow-down"></a></i>
+        </section>
+    <!-- =============================================================================================================== -->
+        <a name="ft"></a>
+        <section class="card bg-dark text-white mb-5">
+            <h5 class="card-header mb-5">A escolha das sementes de acordo com a região do plantio</h5>
+            <p class="card-text mb-5">
+                A escolha das sementes de acordo com a região do plantio.
+            </p>
+            <p class="card-text mb-5">
+                Por esse motivo, deve haver um estudo da região e da demanda ao redor da estrutura que se pretende realizar o plantio,
+                portanto, para a melhor escolha deverá ser considerado o preço de insumos agrícolas, com valores mais condizentes com o mercado,
+                e que tenham uma qualidade aceitável, e deve-se também, considerar a demanda desse tipo de trigo nas regiões
+                próximas, para que haja lucro satisfatório ao final da safra. 
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <i class=""><a href="#fht">Ir para o próximo tópico</a><a class="bi bi-arrow-down"></a></i>
+        </section>
+    <!-- =============================================================================================================== -->
+        <a name="fht"></a>
+        <section class="card bg-dark text-white mb-5">
+            <h5 class="card-header mb-5">Dicas para o plantio do trigo</h5>
+            <p class="card-text mb-5">
+                Com o uso do arado ou ancinho o solo deve ser lavrado em uma profundidade de mais ou menos 15 cm, e após, preparar o solo com adubo, caso necessário.
+            </p>
+            <p class="card-text mb-5">
+                Ao semear, manualmente ou com o uso de um espalhador de sementes, o plantio deve ser feito com uma semente em uma distância de aproximadamente 3 cm por metro quadrado,
+                após a semeadura, as enterre no solo, em uma camada fina entre 5 e 7 cm, após isso, regue-as imediatamente saturando o solo com água,
+                e tente as manter com uma concentração constante de água, até a germinação da semente. 
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <i class=""><a href="#lcy">Ir para o próximo tópico</a><a class="bi bi-arrow-down"></a></i>
+        </section>
+    <!-- =============================================================================================================== -->
+        <a name="lcy"></a>
+        <section class="card bg-dark text-white mb-5">
+            <h5 class="card-header mb-5">Dicas para o manuseio do trigo</h5>
+            <p class="card-text mb-5">
+                No caso de secas, ou seja, uma ou mais semanas sem chuva, será necessário a irrigação da lavoura, caso não ocorra tal evento,
+                desconsidere a irrigação como algo estritamente necessário, mantenha a lavoura livre de ervas daninhas, devendo ser feita sua remoção periodicamente e,
+                principalmente fique atento às pragas na lavoura, como larvas e insetos. 
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <i class=""><a href="#wtc">Ir para o próximo tópico</a><a class="bi bi-arrow-down"></a></i>
+        </section>
+    <!-- =============================================================================================================== -->
+        <a name="wtc"></a>
+        <section class="card bg-light mb-5">
+            <h5 class="card-header mb-1">As fases do ciclo de vida do trigo</h5>
+            <table class="table table-info table-striped">
+                <thead>
+                    <tr class="tt table-primary">
+                        <th>Existem 5 fases no ciclo do trigo sendo elas: </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Plântula</th>
+                        <tr>
+                            <td>
+                                Nada mais é que a germinação da planta, 
+                                entre 5 à 7 dias, até o crescimento de suas 3 primeiras folhas (cerca de 12 a 16 dias)
+                            </td>
+                        </tr>
+                        <th>Perfilhamento</th>
+                        <tr>
+                            <td>
+                                O aparecimento de mais folhas e o surgimento dos perfilhos, tendo entre 7 e 8 perfilhos, 
+                                este processo tem uma duração média entre 15 à 17 dias.
+                            </td>
+                        </tr>
+                        <th>Alongamento</th>
+                        <tr>
+                            <td>
+                                Surgimento do primeiro nó de colmo, crescimento expoente do caule
+                                e o aparecimento da folha bandeira, este processo tem uma duração de 15 a 18 dias. 
+                            </td>
+                        </tr>
+                        <th>Espigamento</th>
+                        <tr>
+                            <td>
+                                Surgimento da espiga, floração, frutificação e início do desenvolvimento 
+                                do grão, este processo tem uma duração média entre 12 à 16 dias. 
+                            </td>
+                        </tr>
+                        <th>Maturação</th>
+                        <tr>
+                            <td>
+                                Finalização do desenvolvimento do grão, ocorrendo sua maturação e, também, a secagem 
+                                das folhas e espiga, este processo tem uma duração média entre 30 à 40 dias. 
+                            </td>
+                        </tr>
+                    </tr>
+                </tbody>
+            </table>
+            <i class=""><a href="#pm">Ir para o próximo tópico</a><a class="bi bi-arrow-down"></a></i>
+        </section>
+    <!-- =============================================================================================================== -->
+        <a name="pm"></a>
+        <section class="card bg-dark text-white mb-5">
+            <h5 class="card-header mb-5">A coleta do trigo após seu período de maturação</h5>
+            <p class="card-text mb-5">
+                A colheita do trigo deverá ser feita por meio de tratos colheitadeiras que vão
+                cortar e descascar o grão, após a obtenção do grão deverá ser secado e armazenado. 
+            </p>
+            <p class="card-text mb-5">
+                A colheita, caso ocorra tudo normalmente, será feita entre 110 à 120 dias após o plantio da lavoura. 
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+            <p class="card-text mb-5">
+                
+            </p>
+        </section>
+    </main>
+<!-- =============================================================================================================== -->
+    <footer class="text-center text-white fixed-bottom" style="background-color: #01081a;">
+        <div class="text-center p-0 text-white" id="backToTop">
+            <a href="#top" class="bi bi-card-list" alt="Voltar ao topo"></a>
+        </div>
+      </footer>
+<!-- =============================================================================================================== -->
+</body>
+</html>
