@@ -29,3 +29,9 @@ section i, section a {
     width: 60%;
     text-align: justify;
 }
+
+.ctable {
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+}
