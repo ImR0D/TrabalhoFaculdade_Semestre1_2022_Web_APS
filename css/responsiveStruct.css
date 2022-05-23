@@ -28,6 +28,34 @@
     }
 }
 
+@media (max-width: 796px){
+    footer {
+        height: 50px;
+    }
+    footer .bi {
+        font-size: 32px;
+    }
+    footer div a {
+        display: block;
+    }
+    footer .ctable {
+        display: none;
+    }
+}
+
+@media (min-width: 797px){
+    footer {
+        height: 120px;
+    }
+    footer .bi {
+        font-size: 60px;
+    }
+    footer div a {
+        display: block;
+    }
+}
+
+
 @media screen and (min-width: 25em){
     h1 {
         font-size: calc( 5vw * 2vw ) / 2 ;
