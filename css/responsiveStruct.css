@@ -1,4 +1,3 @@
-
 /* =======================================================================
  * Remove as laterais internas e externas de todos os containers,
  * aplica o tamanho de 100% abrangendo todo o espaço horizontal da tela,
@@ -6,7 +5,7 @@
  * com limites relativos à borda.
  * =======================================================================
 */
-* { 
+* {
     padding: 0;
     margin: 0;
     width: 100%;
@@ -28,37 +27,72 @@
     }
 }
 
-@media (max-width: 796px){
+@media (max-width: 796px) {
     footer {
         height: 50px;
     }
+
     footer .bi {
-        font-size: 32px;
+        font-size: 40px;
     }
+
     footer div a {
         display: block;
     }
+
     footer .ctable {
         display: none;
     }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    section img {
+        min-height: 300px;
+    }
+
+    .card-title {
+        font-size: small !important;
+    }
+
+    header span h1:first-child {
+        font-size: 6vw !important;
+    }
+
+    div table {
+        font-size: 2vw;
+    }
 }
 
-@media (min-width: 797px){
+@media (min-width: 797px) {
     footer {
         height: 120px;
     }
+
     footer .bi {
         font-size: 60px;
     }
+
     footer div a {
+        display: block;
+    }
+
+    section img {
+        width: 100%;
+        height: 100%;
+        max-width: 800px;
+    }
+
+    .row div {
         display: block;
     }
 }
 
 
-@media screen and (min-width: 25em){
+@media screen and (min-width: 25em) {
     h1 {
-        font-size: calc( 5vw * 2vw ) / 2 ;
+        font-size: calc(5vw * 2vw) / 2;
     }
 }
 
@@ -73,4 +107,29 @@ body {
 #backToTop {
     padding: 10px;
     font-size: 80px;
+}
+
+
+@media (min-width: 600px) {
+    p .card-text {
+        font-size: 20px !important;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container div {
+        display: block;
+    }
+
+    .card-body .container {
+        padding-left: 0;
+        min-width: 88vw;
+        margin-left: -70px;
+    }
+
+    p {
+        font-size: 3vw !important;
+    }
 }

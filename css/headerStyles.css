@@ -1,4 +1,8 @@
+/*
 
+    HEADER / SPAN / VIDEO
+
+*/
 header {
     top: 0;
     left: 0;
@@ -22,15 +26,20 @@ header span:first-child {
 header span h1:first-child {
     text-shadow: 0px 0px #f0f0f0;
     font-family: 'Beau Rivage', cursive;
-    font-size: 7vw;
+    font-size: 6vw;
     opacity: 1;
 }
 
 header video {
     opacity: 0.9;
     z-index: 0;
-}
+}   
 
+
+
+/*
+    COLLAPSE MENU
+*/
 aside {
     background-color: #000;
     opacity: 0.8;

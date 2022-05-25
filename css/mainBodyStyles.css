@@ -12,7 +12,7 @@ main {
     font-size: 20px;
 }
 .card-text {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu Mono', sans-serif;
     font-size: 1.5vh;
     font-stretch: wider;
 }
@@ -20,6 +20,21 @@ main {
 section i, section a {
     text-align: right;
     padding: 10px;
+}
+
+section {
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+table {
+    margin-top: 3vh;
+}
+
+section table {
+    align-items: flex-start;
+    text-align: left;
 }
 
 .tt {
@@ -35,4 +50,66 @@ section i, section a {
     position: relative;
     bottom: 15px;
     font-size: 20px;
+}
+
+.card-body {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-title {
+    font-family: 'Beau Rivage' sans-serif;
+    font-weight: bolder;
+    text-shadow: 0px 0px 2px #55FFFFA0;
+    font-size: 18px;
+}
+
+.container img {
+    min-width: 400px;
+    min-height: 400px;
+    width: 100% !important;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.row div {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+tr th {
+    width: 10% !important;
+}
+
+.card-black {
+    margin-top: 30px;
+    background-color: #2c2a2ad2;
+    color: #fff;
+}
+
+.mid-size {
+    min-width: 100px !important;
+    width: 150px !important;
+    margin-top: 10px;
+    height: 400px !important;
+}
+
+.shadow-container {
+    background-color: rgba(0,0,0,0.08);
+    border-radius: 1%;
+}
+.shadow-container-desc {
+    background-color: rgba(100,100,100,0.3);
+    display: inline-block;
+    padding: 10px;
+}
+
+.high-rounded {
+    border-radius: 100%;
+}
+
+blockquote {
+    min-width: 200px;
+    padding-right: 25px;
 }
